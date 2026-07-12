@@ -20,5 +20,8 @@ This repository contains the source code for IITB Insti-Assist, a Retrieval-Augm
    Run: pip install -r requirements.txt
 3. **Add your API Key**
    Open app.py and replace "YOUR_GEMINI_API_KEY" with a valid Google Gemini API key.
-4. **Run the application**
+4. **Set up your data**
+   a) Create a folder named "data" in the root directory.
+   b) Place at least 1 relevant IIT Bombay PDF documents (e.g., Academic Rulebook) into this folder.
+5. **Run the application**
    Run: streamlit run app.py
